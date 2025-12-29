@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class bubbleeSort {
+public class sorting {
     public static void main(String[] args) {
         int[] arr = {1, 2222, 45, 33, 75, 7, 6};
         int n = arr.length;
@@ -52,6 +52,5 @@ public class bubbleeSort {
                 j--;
             }
         }
-
     }
 }
