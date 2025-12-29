@@ -22,3 +22,5 @@ public class optimal {
         return (secLargest == Integer.MIN_VALUE) ? -1 : secLargest;
     }
 }
+
+// tc : o(n)
