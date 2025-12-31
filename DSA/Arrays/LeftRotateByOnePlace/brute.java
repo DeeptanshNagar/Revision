@@ -1,19 +1,25 @@
-import java.util.Arrays;
 
 public class brute {
-   public static void main(String[] args) {
-        int[] arr = {2, 4, 5, 7, 12, 15};
-        leftRotate(arr);
-        System.out.println(Arrays.toString(arr));
-   }
-   static void leftRotate(int[] arr) {
-		int temp = arr[0];
-		for (int i = 1; i < arr.length; i++) {
-			arr[i - 1] = arr[i];
+	public static void main(String[] args) {
+		int[] arr = {2, 4, 5, 7, 12, 15};
+		int n = arr.length;
+        leftRotate(arr, n);
+	}
+	static void leftRotate(int[] arr, int n) {
+		int[] temp = new int[n];
+		for (int i = 1; i < n; i++) {
+			temp[i - 1] = arr[i];
 		}
-		arr[arr.length - 1] = temp;
+		temp[n - 1] = arr[0];
+
+
+		System.out.print("[");
+		for (int i = 0; i < n; i++) {
+            System.out.print(temp[i] + ", ");
+        }
+		System.out.println("]");
+        System.out.println();
    }
 }
-// tc : 0(n)
-// sc : 0(n) (array used to solve the problem).
-// xtra space used (sc complexity) : 0(1)
+// tc : o(n)
+// sc : o(n)
