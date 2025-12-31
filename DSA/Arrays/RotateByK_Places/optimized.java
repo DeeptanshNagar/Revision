@@ -5,8 +5,8 @@ public class optimized {
 		int[] arr = {2, 4, 5, 6, 8, 12};
         int k = 2;
 
-        // rotateLeft(arr, k);
-        // System.out.println(Arrays.toString(arr));
+        rotateLeft(arr, k);
+        System.out.println(Arrays.toString(arr));
 
         rotateRight(arr, k);
         System.out.println(Arrays.toString(arr));
