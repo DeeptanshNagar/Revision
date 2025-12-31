@@ -1,5 +1,4 @@
 import java.util.HashSet;
-import java.util.Arrays;
 
 public class brute {
     public static void main(String[] args) {
@@ -23,3 +22,5 @@ public class brute {
         return index;
     }
 }
+// tc : 0(n)
+// sc : 0(n)

@@ -1,4 +1,3 @@
-import java.util.Arrays;
 
 public class optimal {
     public static void main(String[] args) {
@@ -21,3 +20,5 @@ public class optimal {
         return i + 1;
     }
 }
+// tc : 0(n)
+// sc : 0(1)
