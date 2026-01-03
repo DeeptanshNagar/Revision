@@ -1,7 +1,7 @@
 // Dutch National Flag Algorithm
 import java.util.Arrays;
 
-public class optimal {
+public class DutchFlag {
 	public static void main(String[] args) {
 		int[] arr = {0, 1, 2, 0, 1, 2, 1, 2, 0, 0, 0, 1};
 		arrangeColors(arr);

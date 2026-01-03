@@ -1,6 +1,6 @@
 // Moore's Voting Algorithm
 
-public class optimal {
+public class MooreVoting {
 	public static void main(String[] args) {
 		int[] arr = {7, 7, 5, 7, 5, 1, 5, 7, 5, 5, 7, 7, 5, 5, 5, 5};
         int ans = majorityElement(arr);
