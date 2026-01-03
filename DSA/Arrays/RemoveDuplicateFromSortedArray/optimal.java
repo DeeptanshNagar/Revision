@@ -1,7 +1,7 @@
 
 public class optimal {
     public static void main(String[] args) {
-        int[] nums = {2, 3, 3, 5, 7, 7, 12};
+        int[] nums = {2, 3, 3, 5, 7, 7, 7, 12};
         int newLength = removeDuplicates(nums);
         System.out.println(newLength);
     }
