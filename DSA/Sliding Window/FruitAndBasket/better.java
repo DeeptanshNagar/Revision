@@ -1,6 +1,6 @@
 import java.util.HashMap;
 
-public class opitmized {
+public class better {
 	public static void main(String[] args) {
 		int[] arr = {3, 3, 3, 1, 2, 1, 1, 2, 3, 3, 4};
 		int k = 2;
@@ -28,6 +28,8 @@ public class opitmized {
 			maxLen = Math.max(maxLen, right - left + 1);
 			right++;
 		}
+		// TC : O(N + N)
+		// SC : O(3)
 		return maxLen;
 	}
 }
