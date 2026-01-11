@@ -7,12 +7,12 @@ public class main {
 	}
 	static int bestTime(int[] arr, int n) {
 		int maxProfit = 0;
-		int buy = arr[0];
+		int buy = arr[0]; 
 		
 		for (int i = 1; i < n; i++) {
-			int profit = arr[i] - buy;
+			int profit = arr[i] - buy; 
 			maxProfit = Math.max(maxProfit, profit);
-			buy = Math.min(buy, arr[i]);
+			buy = Math.min(buy, arr[i]); 
 		}
 		return maxProfit;
 	}

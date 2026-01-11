@@ -14,6 +14,7 @@ public class solution {
             s = r;
             
         }
-		return (x * y) / g;
+		int lcm = x * y / g;
+		return lcm;
     }
 }
