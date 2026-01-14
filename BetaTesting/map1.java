@@ -4,6 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 
+
 public class map1 {
     public static void main(String[] args) {
         HashMap<Integer,String> map1 = new HashMap<>();
@@ -133,6 +134,7 @@ public class map1 {
 //  Map.Entry = one pair of key and value.
 
 //  map.entrySet() = a Set containing all the Map.Entry pairs in the map.
+
 
 
 
