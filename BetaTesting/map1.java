@@ -102,7 +102,6 @@ public class map1 {
     }
     
 
-
 // Full Method List Used
 // Method	Description
 // put()	Add key-value
@@ -132,4 +131,5 @@ public class map1 {
 // You can’t directly create a new Map.Entry yourself.
 // You get entries from entrySet().
 //  Map.Entry = one pair of key and value.
+
 //  map.entrySet() = a Set containing all the Map.Entry pairs in the map.
