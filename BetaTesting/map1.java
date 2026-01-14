@@ -1,5 +1,6 @@
 // The map interface in Java is a structure that holds a set of key-value pairs where each key is unique and points to one value only. It is a component of the java.util package and is being widely used in Java programming to structure and get data in an ordered manner. A Map is useful if you have to search, update or delete elements on the basis of a key.
 
+
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
@@ -133,3 +134,4 @@ public class map1 {
 //  Map.Entry = one pair of key and value.
 
 //  map.entrySet() = a Set containing all the Map.Entry pairs in the map.
+
